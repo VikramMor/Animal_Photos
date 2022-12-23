@@ -1,0 +1,28 @@
+
+body{
+    background-image: url(./bg.jpg);
+}
+.container{
+    background: #444;
+    width: 70%;
+    margin: 0px auto;
+    border-radius: 3%;
+    padding: 3rem;
+    text-align: center;
+}
+.header{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.animal-img{
+    padding: 1.5rem;
+    border-radius: 13%;
+    opacity: .8;
+}
+.animal-img:hover{
+    opacity: 1;
+    transform: scale(1.25); /*  to make the image pop up on hover to a scale */
+    transition-duration: 1s ; /*  to make the image pop up on hover smooth and give a duration for transition */
+}
